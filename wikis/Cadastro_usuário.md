@@ -16,7 +16,7 @@ Antes de detalhar os fluxos específicos, são apresentadas as **informações c
 ### 2.1 Dados pessoais (todos os perfis)
 
 | Campo              | Paciente | Médico | Administrador | Obrigatório | Único |Observação                                   |
-| ------------------ | -------- | ------ | ------------- | ----------- | ----- |
+| ------------------ | -------- | ------ | ------------- | ----------- | ----- | ----- |
 | Nome               | ✔️       | ✔️     | ✔️            | ✔️          | ❌     |  |
 | CPF                | ✔️       | ✔️     | ✔️            | ✔️          | ✔️    |  |
 | Data de nascimento | ✔️       | ✔️     | ✔️            | ✔️          | ❌     |  |
