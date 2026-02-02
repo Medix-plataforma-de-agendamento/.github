@@ -129,6 +129,9 @@ Observações gerais:
   * Credenciais próprias
   * Contexto de autenticação independente
 * Nenhuma senha pode ser visualizada por outro usuário
+* Quando um usuário é criado por um administrador, a senha inicial do perfil criado será a senha padrão, definida como os 5 últimos dígitos do CPF do usuário
+* No primeiro acesso utilizando a senha padrão, o sistema deve exigir obrigatoriamente a alteração da senha, conforme as regras de segurança vigentes
+* Enquanto a senha não for alterada, o acesso ao sistema deve ser restrito apenas ao fluxo de **Alterar de senha**
 * Todo cadastro e alteração relevante gera **registro de auditoria**
 
 ---
